@@ -1,0 +1,42 @@
+
+        .contornos {
+            font-size: 44px;
+            color: black;
+            text-shadow: 
+                -1px -1px 0 gold,  
+                 1px -1px 0 gold,
+                -1px  1px 0 gold,
+                 1px  1px 0 gold;
+        }
+        nav {
+            background-color: #333; 
+            padding: 20px;
+            border-radius: 12px; 
+        }
+
+        nav ol {
+            list-style-type: square; color: gold ; 
+            padding-left: 5px; 
+        }
+
+        nav dd {
+            margin: 5px 0; 
+        }
+
+        nav a {
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .subtemas{
+            background-color: #333;
+            padding: 10px;
+            border-radius: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
