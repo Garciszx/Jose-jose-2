@@ -49,3 +49,11 @@
                 -1px  1px 0 gold,
                  1px  1px 0 gold;
         }
+        .pesido {
+            height: 260px;
+            width: 290px;
+            background-color: orange;
+            opacity: .5;
+            border: 3px solid black;
+            color: black;
+        }
