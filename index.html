@@ -27,5 +27,15 @@
             </ol>
         </nav>
     </aside>
+    <script>
+        document.querySelectorAll('nav a:hover').forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                link.style.transform = 'scale(1.1)';
+            });
+            link.addEventListener('mouseleave', () => {
+                link.style.transform = 'scale(1)';
+            });
+        });
+    </script>
 </body>
 </html>
